@@ -2,7 +2,7 @@
 clear all;
 clc;
 
-path='../Data/image2/';
+path='../dataset/image2/';
 filename='rgb.png';
 savename=filename;
 savename(end-3:end)=[];

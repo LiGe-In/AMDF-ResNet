@@ -1,7 +1,7 @@
 % function [R,mag,angle]=scale(Image)
 clear 
 clc
-path='../Data/image2/'
+path='../dataset/image2/'
 Image=imread(strcat(path,'rgb.png'));
 Image=im2double(Image) ;
 if (size(Image,3) > 1)

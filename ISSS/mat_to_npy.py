@@ -2,7 +2,7 @@ import numpy as np
 import scipy.io as sio
 from skimage import io
 
-path="../Data/image2/"
+path="../dataset/image2/"
 select_xy_mat=sio.loadmat("./sp_xyc_train2000.mat")
 select_xy=select_xy_mat['select_xyc_all']
 

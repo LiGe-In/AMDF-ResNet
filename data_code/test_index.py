@@ -1,7 +1,7 @@
 import numpy as np
 from skimage import io
 
-path="../Data/image2/"
+path="../dataset/image2/"
 gt=io.imread(path+'gt.tif')
 h,w=gt.shape
 xyc_test_all=np.zeros((h*w,3))

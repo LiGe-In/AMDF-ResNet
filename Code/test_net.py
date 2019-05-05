@@ -13,7 +13,7 @@ if __name__ == '__main__':
     data_folder="image1"
     output_folder = "image1_2000"
     save_path = "../output_sp/"+output_folder+"/"
-    path = "../Data/"+data_folder+"/"
+    path = "../dataset/"+data_folder+"/"
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--def', dest='prototxt', help='prototxt file defining the network',

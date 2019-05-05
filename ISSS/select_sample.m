@@ -2,7 +2,7 @@ clear all
 clc
 close all;
 
-path='../Data/image2/';
+path='../dataset/image2/';
 load segments_and_index15.mat;
 label=imread(strcat(path,'gt.tif'));
 gradient=imread(strcat(path,'gradient.tif'));

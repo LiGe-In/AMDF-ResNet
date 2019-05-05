@@ -1,7 +1,7 @@
 import numpy as np
 from skimage import io
 
-path="../Data/image2/"
+path="../dataset/image2/"
 data=io.imread(path+"ms4.tif")
 # print data.shape
 
